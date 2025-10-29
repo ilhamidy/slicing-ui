@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:slicing_ui1/komponen/bannerinfo.dart';
 import 'package:slicing_ui1/komponen/komponen_ui_1.dart';
 import 'package:slicing_ui1/komponen/menuapp.dart';
 import 'package:slicing_ui1/komponen/saldoapp.dart';
@@ -12,6 +13,7 @@ class Page01 extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
               height: 330,
@@ -30,7 +32,7 @@ class Page01 extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  SizedBox(height: 25),
+                  SizedBox(height: 3),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 10,
@@ -110,8 +112,79 @@ class Page01 extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 35),
+            SizedBox(height: 20),
             Saldoapp(),
+            SizedBox(height: 20),
+            Column(
+              spacing: 15,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Menuapp(logo: "assets/motor2.png", title: "Gojek"),
+                    Menuapp(logo: "assets/car2.png", title: "Gocar"),
+                    Menuapp(logo: "assets/motor2.png", title: "Gojek"),
+                    Menuapp(logo: "assets/car2.png", title: "Gocar"),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Menuapp(logo: "assets/motor2.png", title: "Gojek"),
+                    Menuapp(logo: "assets/car2.png", title: "Gocar"),
+                    Menuapp(logo: "assets/motor2.png", title: "Gojek"),
+                    Menuapp(logo: "assets/car2.png", title: "Gocar"),
+                  ],
+                ),
+              ],
+            ),
+            SizedBox(height: 20),
+            Padding(
+              padding: const EdgeInsets.only(left: 20),
+              child: Text(
+                "Promo hari ini!",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ),
+            SizedBox(
+              height: 170,
+              width: double.infinity,
+              child: PageView(
+                children: [
+                  Bannerinfo(banner: "assets/banner1.png"),
+                  Bannerinfo(banner: "assets/banner2.png"),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            IconButton(
+              onPressed: () {},
+              icon: SizedBox(height: 30, child: Image.asset("assets/home.png")),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: SizedBox(
+                height: 30,
+                child: Image.asset("assets/promo.png"),
+              ),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: SizedBox(height: 30, child: Image.asset("assets/chat.png")),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: SizedBox(
+                height: 30,
+                child: Image.asset("assets/shopping-bag.png"),
+              ),
+            ),
           ],
         ),
       ),
