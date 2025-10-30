@@ -1,4 +1,6 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:slicing_ui1/halaman/page_01.dart';
 
 void main() {
@@ -16,7 +18,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Page01(),
+      home: AnimatedSplashScreen(
+        splash: SizedBox(height: 100, child: Lottie.asset('MoonLoader.json')),
+        nextScreen: Page01(),
+      ),
     );
   }
 }

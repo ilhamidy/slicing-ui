@@ -33,56 +33,67 @@ class Page01 extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   SizedBox(height: 3),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    spacing: 10,
-                    children: [
-                      SizedBox(
-                        width: 350,
-                        child: TextField(
-                          decoration: InputDecoration(
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(50),
+                  Padding(
+                    padding: const EdgeInsets.all(10),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      spacing: 10,
+                      children: [
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              border: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(50),
+                              ),
+                              filled: true,
+                              fillColor: const Color.fromARGB(
+                                255,
+                                230,
+                                229,
+                                229,
+                              ),
+                              hintText: 'Mau makan apa hari ini?',
+                              hintStyle: GoogleFonts.poppins(
+                                color: Colors.grey,
+                              ),
                             ),
-                            filled: true,
-                            fillColor: const Color.fromARGB(255, 230, 229, 229),
-                            hintText: 'Mau makan apa hari ini?',
-                            hintStyle: GoogleFonts.poppins(color: Colors.grey),
                           ),
                         ),
-                      ),
-                      CircleAvatar(
-                        foregroundImage: AssetImage("assets/fast food.png"),
-                      ),
-                    ],
+                        CircleAvatar(
+                          foregroundImage: AssetImage("assets/fast food.png"),
+                        ),
+                      ],
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              "Menu favorit anda",
-                              style: GoogleFonts.poppins(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Menu favorit anda",
+                                style: GoogleFonts.poppins(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            ),
-                            Text(
-                              "Sendiri atau barengan",
-                              style: GoogleFonts.poppins(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                              Text(
+                                "Sendiri atau barengan",
+                                style: GoogleFonts.poppins(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                         SizedBox(
-                          height: 140,
-                          width: 140,
+                          height: 130,
+                          width: 130,
                           child: Image.asset('assets/fast food.png'),
                         ),
                       ],
