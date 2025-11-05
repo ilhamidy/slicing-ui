@@ -50,7 +50,7 @@ slicing-ui/
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/ilhamdev/slicing-ui.git
+   git clone https://github.com/ilhamidy/slicing-ui.git
 2. Masuk ke folder project yang ingin dijalankan:
    ```bash
    cd slicing-ui/project2
