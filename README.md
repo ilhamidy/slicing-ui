@@ -71,6 +71,6 @@ reusable
 
 📷 Cuplikan Tampilan
 
-![iPhone 14   15 Pro Max - 6](https://github.com/user-attachments/assets/7700e5a7-13eb-44b1-8506-bdebf9a5f1e0)
-<img width="1102" height="1885" alt="slicing ui2" src="https://github.com/user-attachments/assets/7e4ee109-4d3d-438f-8b28-3a6741fee6a7" />
+<img width="250" height="300" alt="slicing ui2" src="[https://github.com/user-attachments/assets/7e4ee109-4d3d-438f-8b28-3a6741fee6a7](https://github.com/user-attachments/assets/7700e5a7-13eb-44b1-8506-bdebf9a5f1e0)" />
+<img width="250" height="300" alt="slicing ui2" src="https://github.com/user-attachments/assets/7e4ee109-4d3d-438f-8b28-3a6741fee6a7" />
 
