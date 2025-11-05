@@ -71,6 +71,10 @@ reusable
 
 📷 Cuplikan Tampilan
 
-<img width="250" height="300" alt="slicing ui2" src="[https://github.com/user-attachments/assets/7e4ee109-4d3d-438f-8b28-3a6741fee6a7](https://github.com/user-attachments/assets/7700e5a7-13eb-44b1-8506-bdebf9a5f1e0)" />
-<img width="250" height="300" alt="slicing ui2" src="https://github.com/user-attachments/assets/7e4ee109-4d3d-438f-8b28-3a6741fee6a7" />
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img width="250" alt="slicing ui2" src="https://github.com/user-attachments/assets/7e4ee109-4d3d-438f-8b28-3a6741fee6a7" />
+  <img width="250" alt="slicing ui2" src="https://github.com/user-attachments/assets/81ec2d17-22e7-43c0-99af-844d1cf8a7c9" />
+</div>
+
+
 
