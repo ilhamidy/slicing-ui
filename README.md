@@ -69,6 +69,13 @@ reusable
 🏫 Tujuan: Memberikan pemahaman praktis dalam membuat UI modern berbasis Flutter tanpa package kompleks.
 🧠 Pendekatan: Siswa belajar memahami layout step-by-step dari desain hingga implementasi kode.
 
+🏁 Lisensi
+
+Project ini bersifat open source untuk kegiatan belajar-mengajar dan non-komersial.
+Silakan gunakan dan modifikasi dengan tetap mencantumkan sumber pembelajaran.
+
+© 2025 – Pembelajaran Flutter Kelas 11 | Ilham Dwi Prasetyo
+
 📷 Cuplikan Tampilan
 
 <div style="display: flex; justify-content: center; gap: 10px;">
