@@ -64,10 +64,10 @@ slicing-ui/
 reusable
 🧑‍🏫 Tentang Project Ini
 
-📚 Dibuat untuk pembelajaran Flutter Kelas XI (RPL / IT)
-👨‍💻 Pengajar: Ilham Dwi Prasetyo
-🏫 Tujuan: Memberikan pemahaman praktis dalam membuat UI modern berbasis Flutter tanpa package kompleks.
-🧠 Pendekatan: Siswa belajar memahami layout step-by-step dari desain hingga implementasi kode.
+- 📚 Dibuat untuk pembelajaran Flutter Kelas XI (RPL / IT)
+- 👨‍💻 Pengajar: Ilham Dwi Prasetyo
+- 🏫 Tujuan: Memberikan pemahaman praktis dalam membuat UI modern berbasis Flutter tanpa package kompleks.
+- 🧠 Pendekatan: Siswa belajar memahami layout step-by-step dari desain hingga implementasi kode.
 
 🏁 Lisensi
 
