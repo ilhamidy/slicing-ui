@@ -9,12 +9,14 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: ClassName.color3,
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            //appbar menu
-            Appbar(),
-          ],
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              //appbar menu
+              Appbar(),
+            ],
+          ),
         ),
       ),
     );
