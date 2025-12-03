@@ -7,6 +7,12 @@ class Homepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final List<String> bannerSlide = [
+      "assets/banners/banner-15.png",
+      "assets/banners/banner-16.png",
+      "assets/banners/banner-17.png",
+    ];
+
     return Scaffold(
       backgroundColor: ClassName.color3,
       body: SafeArea(
@@ -15,6 +21,57 @@ class Homepage extends StatelessWidget {
             children: [
               //appbar menu
               Appbar(),
+              SizedBox(height: 60),
+              SizedBox(
+                height: 180,
+                child: PageView(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      height: double.infinity,
+                      width: double.infinity,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
+                        image: DecorationImage(
+                          image: AssetImage("assets/banners/banner-15.png"),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      height: double.infinity,
+                      width: double.infinity,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
+                        image: DecorationImage(
+                          image: AssetImage("assets/banners/banner-16.png"),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      height: double.infinity,
+                      width: double.infinity,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
+                        image: DecorationImage(
+                          image: AssetImage("assets/banners/banner-17.png"),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              //dengan builder
+              SizedBox(
+                height: 180,
+                child: PageView.builder(
+                  itemCount: bannerSlide.length,
+                  itemBuilder: (context, index) {
+                    return Container();
+                  },
+                ),
+              ),
             ],
           ),
         ),

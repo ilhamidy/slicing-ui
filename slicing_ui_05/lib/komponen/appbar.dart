@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:slicing_ui05/decoration/set.dart';
+import 'package:slicing_ui05/komponen/card.dart';
 import 'package:slicing_ui05/komponen/cari.dart';
 
 class Appbar extends StatelessWidget {
@@ -94,7 +95,7 @@ class Appbar extends StatelessWidget {
           left: 20,
           right: 20,
           child: Container(
-            height: 150,
+            // height: 150,
             width: double.infinity,
             decoration: BoxDecoration(
               gradient: LinearGradient(
@@ -111,6 +112,36 @@ class Appbar extends StatelessWidget {
                   offset: Offset(1, 2),
                 ),
               ],
+            ),
+            child: Padding(
+              padding: const EdgeInsets.only(left: 5, top: 5, right: 5),
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(13, 10, 13, 3),
+                    child: Row(
+                      // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text("Hai, David", style: ClassName.style2),
+                        Spacer(),
+                        Text("Newbie Member", style: ClassName.style2),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Container(
+                    // padding: EdgeInsets.all(0),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Padding(
+                      padding: EdgeInsets.all(10),
+                      child: Card01(),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ),
