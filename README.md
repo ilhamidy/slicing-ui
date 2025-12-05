@@ -1,6 +1,6 @@
 # 🚆📱 Flutter Slicing UI – Project Pembelajaran Kelas 11
 
-Repository ini berisi kumpulan **project latihan Flutter** yang berfokus pada **slicing UI (User Interface)** dari aplikasi populer seperti **KAI Access** dan **Gojek**.  
+Repository ini berisi kumpulan **project latihan Flutter** yang berfokus pada **slicing UI (User Interface)** dari aplikasi populer seperti **KAI Access** , **Gojek** dan **Alfagift**.  
 Project ini digunakan sebagai bahan pembelajaran bagi **siswa kelas 11 jurusan IT / Rekayasa Perangkat Lunak (RPL)** untuk memahami konsep layout dan komponen UI dasar di Flutter.
 
 ---
@@ -20,17 +20,15 @@ Melalui project ini, siswa diharapkan dapat:
 ## 📁 Struktur Folder
 
 slicing-ui/
-├── slicing_ui_01/
-│ ├── lib/ → Tampilan mirip aplikasi Gojek
-│ └── assets/ → Gambar & ikon pendukung
-│
-├── slicing_ui_02/
-│ ├── lib/ → Tampilan struktur aplikasi KAI
-|
-└── project3/
-│ ├── slicing_ui_struktur aplikasi kai/ → Tampilan mirip aplikasi KAI Access
-│ └── assets/ → Gambar & ikon pendukung
+├── slicing_ui_01/lib/ → Tampilan mirip aplikasi Gojek
 
+├── slicing_ui_02/lib/ → Tampilan struktur aplikasi KAI
+
+├── slicing_ui_03/lib/ → Tampilan mirip aplikasi KAI Access
+
+├── slicing_ui_04/lib/ → belajar slicing ui
+
+├── slicing_ui_05/lib/ → Tampilan mirip aplikasi Alfagift
 
 ---
 
