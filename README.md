@@ -19,7 +19,6 @@ Melalui project ini, siswa diharapkan dapat:
 
 ## 📁 Struktur Folder
 
-slicing-ui/
 ├── slicing_ui_01/lib/ → Tampilan mirip aplikasi Gojek
 
 ├── slicing_ui_02/lib/ → Tampilan struktur aplikasi KAI
