@@ -81,9 +81,10 @@ Silakan gunakan dan modifikasi dengan tetap mencantumkan sumber pembelajaran.
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img width="250" alt="slicing ui2" src="https://github.com/user-attachments/assets/7e4ee109-4d3d-438f-8b28-3a6741fee6a7" />
   <img width="250" alt="slicing ui2" src="https://github.com/user-attachments/assets/81ec2d17-22e7-43c0-99af-844d1cf8a7c9" />
-  <img width="250" alt="slicing ui2" src="https://github.com/user-attachments/assets/e5c8d2ea-dcb8-49bf-9330-ceb95fbc3f44" />
   <img width="250" alt="slicing ui2" src="https://github.com/user-attachments/assets/234fc46b-4fe4-4bb3-a145-3ded53e69974" />
+  <img width="250" alt="slicing ui2" src="https://github.com/user-attachments/assets/a0a87d67-0e48-4c05-bffd-279a346b6b4c" />
 </div>
+
 
 
 
